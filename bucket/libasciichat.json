@@ -1,0 +1,12 @@
+{
+  "version": "0.16.30",
+  "description": "The reusable C library behind ascii-chat: encrypted ACIP networking, media, audio, rendering, and cross-platform terminal primitives.",
+  "homepage": "https://ascii-chat.com",
+  "license": "MIT",
+  "architecture": {
+    "64bit": { "url": "https://github.com/zfogg/ascii-chat/releases/download/v0.16.30/libasciichat-0.16.30-Windows-amd64.zip", "hash": "8894B6EBDFAA0201851AB5432818B97A6D3025F3E510678B496864417E505B17" },
+    "arm64": { "url": "https://github.com/zfogg/ascii-chat/releases/download/v0.16.30/libasciichat-0.16.30-Windows-arm64.zip", "hash": "9E1839CA708EC1BCB23B74094B65D5593DE15E3BCF952C604A746BB6BEDF3FB0" }
+  },
+  "extract_dir": "libasciichat",
+  "checkver": { "github": "https://github.com/zfogg/ascii-chat" }
+}
